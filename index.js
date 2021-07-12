@@ -54,7 +54,7 @@ let bigmacPriceIndex4 = (israelBigmacPriceIndex * 100).toFixed();
 console.log(bigmacPriceIndex4);
 console.log(bigmacPriceIndex4 + "%");
 
-// Canada - bigmacPriceIndex5
+// CANADA - bigmacPriceIndex5
 
 let usBigmacPrice5 = 5.66;
 let canadaBigmacPrice = 6.77;
