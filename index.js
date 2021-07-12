@@ -27,6 +27,7 @@ console.log(bigmacPriceIndex2);
 console.log(bigmacPriceIndex2 + "%");
 
 // NORWAY - bigmacPriceIndex3
+
 let usBigmacPrice3 = 5.66;
 let norwayBigmacPrice = 52.00;
 let impliedPurchasingPower3 = usBigmacPrice3 / norwayBigmacPrice;
@@ -40,6 +41,7 @@ console.log(bigmacPriceIndex3);
 console.log(bigmacPriceIndex3 + "%");
 
 // ISRAEL - bigmacPriceIndex4
+
 let usBigmacPrice4 = 5.66;
 let israelBigmacPrice = 17.00;
 let impliedPurchasingPower4 = usBigmacPrice4 / israelBigmacPrice;
@@ -53,6 +55,7 @@ console.log(bigmacPriceIndex4);
 console.log(bigmacPriceIndex4 + "%");
 
 // Canada - bigmacPriceIndex5
+
 let usBigmacPrice5 = 5.66;
 let canadaBigmacPrice = 6.77;
 let impliedPurchasingPower5 = usBigmacPrice4 / canadaBigmacPrice;
