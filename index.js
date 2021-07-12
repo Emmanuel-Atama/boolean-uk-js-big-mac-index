@@ -39,7 +39,7 @@ let bigmacPriceIndex3 = (norwayBigmacPriceIndex * 100).toFixed();
 console.log(bigmacPriceIndex3);
 console.log(bigmacPriceIndex3 + "%");
 
-// NORWAY - bigmacPriceIndex4
+// ISRAEL - bigmacPriceIndex4
 let usBigmacPrice4 = 5.66;
 let israelBigmacPrice = 17.00;
 let impliedPurchasingPower4 = usBigmacPrice4 / israelBigmacPrice;
