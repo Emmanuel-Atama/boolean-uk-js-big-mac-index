@@ -30,7 +30,7 @@ console.log(bigmacPriceIndex2 + "%");
 let usBigmacPrice3 = 5.66;
 let norwayBigmacPrice = 52.00;
 let impliedPurchasingPower3 = usBigmacPrice3 / norwayBigmacPrice;
-// Annual exchange rate of 1USD is equal to 52NOK at the time of this evaluation.
+// Annual exchange rate of 1USD is equal to 8.5NOK at the time of this evaluation.
 let dollarExchangeRate3 = 1;
 let norwayBigmacPriceIndex =
   (dollarExchangeRate3 - impliedPurchasingPower3) / impliedPurchasingPower3;
