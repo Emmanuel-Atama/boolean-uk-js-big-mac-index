@@ -1,16 +1,16 @@
 // SWITZERLAND - bigmacPriceIndex1
 
-let usBigmacPrice = 5.66;
-let swissBigmacPrice = 6.5;
-let impliedPurchasingPower = usBigmacPrice / swissBigmacPrice;
+let BigmacPriceInUS = 5.66;
+let BigmacPriceInSwitzerland = 6.5;
+let impliedPurchasingPowerUsVsSwitzerland = BigmacPriceInUS / BigmacPriceInSwitzerland;
 // Annual exchange rate of 1USD is equal to 0.92CHF at the time of this evaluation.
-let dollarExchangeRate = 1;
-let swissBigmacPriceIndex =
-  (dollarExchangeRate - impliedPurchasingPower) / impliedPurchasingPower;
-console.log(swissBigmacPriceIndex);
-let bigmacPriceIndex1 = (swissBigmacPriceIndex * 100).toFixed();
-console.log(bigmacPriceIndex1);
-console.log(bigmacPriceIndex1 + "%");
+let dollarExchangeRateUsVsSwitzerland = 1;
+let BigmacPriceIndexSwitzerland =
+  (dollarExchangeRateUsVsSwitzerland - impliedPurchasingPowerUsVsSwitzerland) / impliedPurchasingPowerUsVsSwitzerland;
+console.log(BigmacPriceIndexSwitzerland);
+let bigmacPriceIndexDecimal = (BigmacPriceIndexSwitzerland * 100).toFixed();
+console.log(bigmacPriceIndexDecimal);
+console.log(bigmacPriceIndexDecimal + "%");
 
 // SWEDEN - bigmacPriceIndex2
 
